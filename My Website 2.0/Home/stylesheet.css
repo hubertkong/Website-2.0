@@ -1,0 +1,52 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url('../images/gratisography-74H.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, serif;
+    font-size: 45pt;
+    font-weight: 700    ;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.05cm;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+h1 span {
+    display: inline-block;
+    padding: 0.2cm 0.5cm;
+    border: white solid 10px;
+    margin-top: 320px;
+    margin-bottom: 10px;
+}
+.kicker {
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05cm;
+    color: white;
+    font-size: 15pt;
+}
+
+@media screen and (max-width: 560px) {
+    h1 {
+        font-size: 35pt;
+    }
+    h1 span {
+        padding: 0.1cm 0.3cm;
+    }
+    .kicker {
+        font-size: 10pt;
+    }
+}
+

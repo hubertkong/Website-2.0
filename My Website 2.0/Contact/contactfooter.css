@@ -1,0 +1,71 @@
+footer {
+    background: url("../images/gratisography-74H.jpg") center;
+    background-size: cover;
+    margin-top: 50px;
+    margin-bottom: auto;
+}
+
+.lockup {
+    padding: 50px;
+}
+
+.lockup::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+footer::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.content-wrap {
+    float: left;
+    margin-left: 50px;
+}
+
+.content-wrap nav {
+    display: inline-block;
+}
+
+.content-wrap nav a {
+    font-family: "Roboto Light", serif;
+    font-size: 15pt;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.content-wrap p.copyright {
+    margin: auto;
+    text-transform: uppercase;
+    font-size: 11pt;
+    font-weight: 600;
+    color: rgba(0,0,0,0.4);
+    text-align: center;
+}
+
+.content-wrap p.copyright-description {
+    margin: auto;
+    text-transform: capitalize;
+    font-size: 10pt;
+    font-weight: 600;
+    color: rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.content-wrap a:hover {
+    color: black;
+}
+
+@media screen and (max-width: 600px) {
+    .content-wrap nav a {
+        font-size: 13pt;
+        margin-left: 8px;
+        margin-right: 15px;
+    }
+}

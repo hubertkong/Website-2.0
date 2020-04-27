@@ -1,0 +1,38 @@
+h1 {
+    background-image: url("../images/gratisography-74H.jpg");
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    text-align: center;
+    padding: 60px 10px 60px 10px;
+    color: white;
+    font-family: Arial, serif;
+    font-size: 30pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+span.header {
+    display: inline-block;
+    padding: 0.2cm 0.5cm;
+    border: white solid 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.unlisted p {
+    max-width: 620px;
+    text-align: center;
+    font-family: Arial, serif;
+    font-size: 15pt;
+    font-weight: 300;
+    color: grey;
+    margin: 40px auto;
+}
+
+strong {
+    font-weight: 700;
+    color: dimgrey;
+}
